@@ -19,7 +19,7 @@ This collection features **enterprise-scale analytics projects** across hospital
 
 ## 📊 Featured Projects
 
-### 1. [Hospitality Revenue Analytics Dashboard](./Hospitality-Revenue-Analytics)
+### 1. [Hospitality Revenue Analytics Dashboard](./projects/hospitality-revenue-analytics)
 
 **Enterprise BI solution for hospitality operations combining revenue, operations, and customer intelligence**
 
@@ -30,16 +30,7 @@ This collection features **enterprise-scale analytics projects** across hospital
 - **Tools:** Power BI, DAX, Power Query, Excel
 - **Business Impact:** Revenue optimization, staff scheduling, customer loyalty strategy, upselling initiatives
 
-**Key Insights:**
-- Main Course products generate highest revenue contribution
-- Customer retention above 96% indicates strong repeat business
-- Peak revenue activity in lunch and evening periods
-- High-performing staff exceed average by 35%+
-
-**Recommendations:**
-- Increase staffing during peak demand periods
-- Expand upselling initiatives through targeted training
-- Strengthen customer loyalty programs
+[View Project →](./projects/hospitality-revenue-analytics)
 
 ---
 
@@ -53,15 +44,11 @@ This collection features **enterprise-scale analytics projects** across hospital
 - **Tools:** Power BI, DAX, Power Query
 - **Business Impact:** Pricing strategy, regional expansion, customer retention
 
-**Key Features:**
-- Regional performance comparison and market share analysis
-- Customer segmentation (High-value, Medium, Emerging tiers)
-- Category-level profitability and margin analysis
-- Customer behavior and retention patterns
+[View Project →](https://github.com/Josh-notes/customer-revenue-intelligence-dashboard)
 
 ---
 
-### 3. [Fraud Detection & Payment Risk Intelligence Dashboard](./payment-risk-intelligence-dashboard)
+### 3. [Fraud Detection & Payment Risk Intelligence Dashboard](./projects/payment-risk-intelligence-dashboard)
 
 **Real-time financial risk analytics platform for 1M+ transactions**
 
@@ -71,21 +58,11 @@ This collection features **enterprise-scale analytics projects** across hospital
 - **Tools:** Power BI, DAX, risk metrics modeling
 - **Business Impact:** Fraud prevention strategy, MFA deployment, behavioral analytics
 
-**Key Insights:**
-- Fraud distribution across Wallet, Bank Transfer, and Card methods
-- Regional fraud exposure consistent across North America, Europe, Asia
-- Device-agnostic fraud patterns (Mobile, Desktop, Tablet ~0.47–0.48 rate)
-- Strong fraud indicators: Failed attempts, Flagged IPs, International transactions
-
-**Recommendations:**
-- Implement real-time fraud detection rules
-- Deploy multi-factor authentication (MFA) for high-risk transactions
-- Strengthen international transaction monitoring
-- Build behavioral analytics models
+[View Project →](./projects/payment-risk-intelligence-dashboard)
 
 ---
 
-### 4. [Coca-Cola Retail Analytics Dashboard](./coca-cola-retail-dashboard)
+### 4. [Coca-Cola Retail Analytics Dashboard](./projects/coca-cola-retail-dashboard)
 
 **Enterprise retail profitability analysis for $12M+ sales**
 
@@ -94,16 +71,7 @@ This collection features **enterprise-scale analytics projects** across hospital
 - **Tools:** Advanced Excel, Power Query, Power Pivot, Pivot Tables
 - **Insights:** Coca-Cola leading brand, 43%+ profit margins, major retailer performance
 
-**Key Findings:**
-- Total sales exceeded $12M across multiple regions
-- Coca-Cola: leading brand; Dasani & Diet Coke: secondary brands
-- Amazon and FizzyCo drive significant retail volume
-- Profit margins peaked above 43%
-
-**Strategic Recommendations:**
-- Prioritize high-performing brands for inventory
-- Strengthen partnerships with top retailers
-- Optimize pricing and cost structures
+[View Project →](./projects/coca-cola-retail-dashboard)
 
 ---
 
@@ -132,30 +100,31 @@ This collection features **enterprise-scale analytics projects** across hospital
 
 ---
 
-## 📂 Project Structure
+## 📁 Portfolio Structure
 
 ```
 data-analysis-portfolio/
-├── Hospitality-Revenue-Analytics/
-│   ├── README.md                    (Project documentation)
-│   ├── dashboard/                   (Power BI files)
-│   └── dataset/                     (Source data)
-│
-├── customer-revenue-intelligence-dashboard/
-│   ├── README.md
-│   ├── dashboard/
-│   └── dataset/
-│
-├── payment-risk-intelligence-dashboard/
-│   ├── README.md
-│   ├── dashboard/
-│   └── dataset/
-│
-├── coca-cola-retail-dashboard/
-│   ├── README.md
-│   └── source-files/
-│
-└── README.md                        (This file)
+├── projects/
+│   ├── hospitality-revenue-analytics/
+│   │   ├── README.md
+│   │   ├── assets/
+│   │   │   └── images/
+│   │   ├── dashboard/
+│   │   └── dataset/
+│   ├── payment-risk-intelligence-dashboard/
+│   │   ├── README.md
+│   │   ├── assets/
+│   │   ├── dashboard/
+│   │   └── dataset/
+│   └── coca-cola-retail-dashboard/
+│       ├── README.md
+│       ├── assets/
+│       ├── dashboard/
+│       └── dataset/
+├── .github/
+│   ├── STRUCTURE.md
+│   └── PORTFOLIO.md
+└── README.md
 ```
 
 ---
@@ -179,7 +148,7 @@ Each project follows a consistent analytical framework:
 Data & Business Intelligence Analyst
 
 | Channel | Details |
-|---------|---------|
+|---------|----------|
 | **Email** | [abejidejoshua@yahoo.com](mailto:abejidejoshua@yahoo.com) |
 | **Phone** | +971 58 915 6074 |
 | **LinkedIn** | [josh-abejide-891245107](https://www.linkedin.com/in/josh-abejide-891245107/) |
@@ -188,4 +157,4 @@ Data & Business Intelligence Analyst
 
 ---
 
-**Analytics Portfolio Designed for Executive Decision-Making** | Version 2.0 | July 2026
+**Analytics Portfolio Designed for Executive Decision-Making** | Version 2.1 | July 2026

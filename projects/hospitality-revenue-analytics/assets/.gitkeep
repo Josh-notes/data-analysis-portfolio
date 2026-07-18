@@ -1,0 +1,46 @@
+# Asset Organization Guide
+
+## Screenshots & Images
+
+All project screenshots should be organized in the `assets/images/` folder:
+
+```
+assets/
+└── images/
+    ├── dashboard-overview.png
+    ├── revenue-analytics.png
+    ├── customer-analytics.png
+    └── executive-summary.png
+```
+
+### Screenshot Standards
+
+✓ Screenshots taken in **Reading/Published View** (not Edit Mode)  
+✓ High resolution (1920x1080 minimum)  
+✓ Clear, professional presentation  
+✓ Dashboard fully visible without clipping  
+✓ Consistent lighting and contrast  
+
+### Naming Convention
+
+```
+[dashboard-name]-[page-number].png
+
+Example:
+revenue-analytics-dashboard-1.png
+customer-intelligence-dashboard-2.png
+```
+
+---
+
+## README Image References
+
+When referencing images in README files:
+
+```markdown
+![Revenue Analytics Dashboard](./assets/images/revenue-analytics-dashboard-1.png)
+```
+
+---
+
+**Last Updated:** July 2026

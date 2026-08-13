@@ -1,264 +1,137 @@
-# Fraud Detection & Payment Risk Intelligence Dashboard
+# Payment Risk Intelligence Dashboard
 
-**Enterprise Financial Risk Analytics | Real-Time Fraud Monitoring Platform**
+A Power BI payment risk analytics project focused on transaction patterns, fraud indicators, payment methods, geographic activity, device behaviour, and risk reporting.
 
----
+The project demonstrates how transaction data can be explored and presented to help identify patterns that may deserve further investigation.
 
-## 📋 Executive Overview
+## Dashboard Preview
 
-A comprehensive Power BI analytics platform designed for **real-time fraud detection, risk assessment, and payment security** across 1M+ transaction volumes.
+![Payment Risk Intelligence Dashboard](Payment%20Risk%20Intelligence%20Dashboard.png)
 
-**Business Context:** Financial services organization requiring sophisticated fraud detection and risk analytics to minimize financial losses, protect customer assets, and maintain regulatory compliance.
+## Business Questions
 
----
+The analysis focuses on questions such as:
 
-## 🎯 Business Objectives
+* What patterns appear across payment transactions?
+* How are flagged or higher risk transactions distributed?
+* How does transaction activity vary by payment method?
+* Are there differences across regions or device types?
+* Which indicators may deserve closer investigation?
+* How can risk related information be presented clearly for decision support?
 
-✓ Detect fraudulent transactions and identify fraud patterns  
-✓ Monitor fraud trends across channels, regions, and devices  
-✓ Assess and quantify financial risk exposure  
-✓ Support proactive fraud prevention strategy  
-✓ Enable real-time risk monitoring and alerts  
-✓ Optimize fraud detection rules for accuracy and approval rates  
+## Dataset
 
----
+The project uses the Excel workbook:
 
-## 📊 Dataset & Scale
+`Fraud Detection and Payment Risk Intelligence.xlsx`
 
-| Metric | Value |
-|--------|-------|
-| **Transaction Volume** | 1M+ payment transactions |
-| **Fraud Cases Detected** | 4,000+ flagged transactions |
-| **Fraud Rate** | 47.41% (fraud cases / high-risk transactions) |
-| **Time Coverage** | Multi-period trend analysis |
-| **Geographic Coverage** | Multiple regions (North America, Europe, Asia) |
-| **Data Dimensions** | Payment method, device type, geography, transaction value |
+The workbook provides the transaction data used for the analysis.
 
----
+The project examines transaction information through dimensions such as payment method, geography, device type, transaction value, and available risk indicators.
 
-## 🔑 Key Performance Indicators (KPIs)
+## Analytical Approach
 
-| KPI | Value | Strategic Importance |
-|-----|-------|---------------------|
-| **Total Revenue** | $1.04M | Revenue exposure assessment |
-| **Total Transactions** | 1M+ | Transaction volume monitoring |
-| **Fraud Cases** | 4,000+ | Fraud incident tracking |
-| **Fraud Rate** | 47.41% | Risk severity indicator |
-| **Average Transaction Value** | $119.61 | Typical transaction size |
-| **High-Risk Transactions** | 4,000+ | Transactions requiring investigation |
-| **Fraud Loss % of Revenue** | Calculated | Financial impact measurement |
+The project follows a structured risk analytics workflow:
 
----
+**Business Questions → Data Preparation → Risk Analysis → KPI Reporting → Dashboard → Investigation**
 
-## 🛠️ Tools & Technologies
+### Data Preparation
 
-| Component | Technology |
-|-----------|-----------|
-| **BI Platform** | Power BI |
-| **Data Modeling** | Dimensional modeling with risk scoring |
-| **Calculations** | DAX for fraud metrics and risk scoring |
-| **Data Source** | Transaction database / fraud case management system |
-| **Methodology** | Risk analytics, anomaly detection, pattern analysis |
+The source data was prepared for analysis and reporting before being brought into the Power BI workflow.
 
----
+### Risk Analysis
 
-## 📈 Fraud Analysis: Key Findings
-
-### Fraud Trend Analysis
-**Temporal Patterns:**
-- Fraud activity fluctuates across quarters with seasonal patterns
-- Q3 shows noticeable spike in fraud activity
-- Suggests potential campaign-related or seasonal fraud drivers
-- Trend trajectory indicates systemic vulnerabilities
+The analysis examines patterns across transaction activity and available risk indicators.
 
-**Strategic Implication:** Implement quarter-specific fraud prevention tactics
+The purpose is to compare groups, identify concentrations, and highlight areas that may warrant further investigation.
 
-### Fraud by Payment Method
-**Channel Distribution:**
-- Wallet payments: 30%+ fraud cases
-- Bank Transfer: 35%+ fraud cases
-- Card payments: 35%+ fraud cases
-- No single dominant fraud channel → multi-channel vulnerability
-
-**Strategic Implication:** Multi-channel fraud controls required; cannot rely on single-channel remediation
+### Dashboard Development
 
-### Geographic Risk Exposure
-**Regional Fraud Distribution:**
-- North America: Highest fraud case volume
-- Europe: Moderate fraud activity
-- Asia: Growing fraud incidents
-- Fraud relatively consistent across regions → global risk exposure
-
-**Strategic Implication:** Fraud is systemic across regions; requires coordinated global response
-
-### Device Risk Analysis
-**Device-Level Patterns:**
-- Mobile device fraud: ~0.47–0.48 rate
-- Desktop fraud: ~0.47–0.48 rate
-- Tablet fraud: ~0.47–0.48 rate
-- Fraud rate consistent across devices
+Power BI was used to bring the analysis into a visual reporting environment.
 
-**Critical Finding:** Fraud is behavior-driven, not device-specific
-
-**Strategic Implication:** Device-level blocking ineffective; behavioral analytics required
-
-### Risk Factor Breakdown
-**Key Fraud Indicators:**
-- **High Failed Attempts:** Strong predictor of fraudulent intent
-- **Flagged IP Addresses:** Known malicious or suspicious IPs
-- **International Transactions:** Higher fraud risk than domestic
-- **Velocity Anomalies:** Unusual transaction frequency patterns
-- **Amount Anomalies:** Transactions inconsistent with customer history
-
-**Strategic Implication:** Behavioral rules and anomaly detection more effective than demographic rules
-
----
-
-## 💡 Business Recommendations
-
-### Immediate Actions (0-3 months)
-
-1. **Real-Time Fraud Detection Rules**
-   - Implement failed attempt thresholds
-   - Deploy IP reputation database blocking
-   - Flag international transactions for additional verification
-   - **Expected Fraud Reduction:** 15-25%
-   - **Expected FPR Impact:** +3-5% (monitor and optimize)
-
-2. **Multi-Factor Authentication (MFA) Deployment**
-   - Require MFA for high-risk transaction profiles
-   - Implement context-aware MFA (device, location, amount)
-   - Prioritize MFA for international transactions
-   - **Expected Fraud Reduction:** 20-30%
-   - **Expected User Experience Impact:** Monitor and adjust
-
-3. **Transaction Velocity Monitoring**
-   - Set velocity limits by customer segment
-   - Alert on unusual frequency patterns
-   - Implement graduated risk response
-   - **Expected Fraud Reduction:** 10-15%
-
-### Strategic Initiatives (3-12 months)
-
-1. **Behavioral Analytics Model Development**
-   - Build machine learning fraud detection model
-   - Establish baseline customer behavior profiles
-   - Implement anomaly detection scoring
-   - **Expected Fraud Reduction:** 25-40%
-
-2. **Fraud Rule Optimization**
-   - Conduct rigorous false positive analysis
-   - Balance fraud detection vs. customer experience
-   - Implement A/B testing for rule effectiveness
-   - **Expected Approval Rate Improvement:** 5-8%
-
-3. **Monitoring & Alert Infrastructure**
-   - Build real-time fraud monitoring dashboard
-   - Implement automated alert escalation
-   - Establish fraud investigation workflow
-   - **Expected Response Time:** <30 minutes for high-risk transactions
-
-4. **Regulatory Compliance & Reporting**
-   - Establish fraud loss tracking and reporting
-   - Implement compliance documentation
-   - Support regulatory audit requirements
-   - **Expected Compliance Score:** 95%+
-
----
-
-## ✅ Business Value Delivered
-
-| Capability | Outcome |
-|-----------|---------|
-| **Fraud Detection** | Real-time identification of suspicious transactions |
-| **Risk Assessment** | Quantified financial risk exposure across channels |
-| **Incident Tracking** | Centralized visibility into fraud cases and trends |
-| **Prevention Strategy** | Data-driven rules and controls for fraud mitigation |
-| **Regulatory Support** | Evidence-based fraud monitoring for compliance |
-| **Financial Protection** | Reduced fraud losses and customer account protection |
-| **Operational Intelligence** | Fraud analytics supporting security operations center |
-
----
-
-## 🎓 Technical Skills Demonstrated
-
-| Area | Capability |
-|------|-----------|
-| **BI Architecture** | Risk analytics platform design |
-| **Power BI Development** | Fraud metrics, risk scoring, threshold monitoring |
-| **Data Analysis** | Pattern recognition, anomaly detection, trend analysis |
-| **Risk Modeling** | Fraud risk scoring, multi-factor risk assessment |
-| **Data Storytelling** | Executive reporting of financial risk |
-| **Domain Knowledge** | Fintech fraud prevention, payment security, risk management |
-
----
-
-## 📊 Dashboard Components
-
-### Executive Summary Dashboard
-- Fraud KPI scorecards (total cases, fraud rate, losses)
-- Fraud trend line chart with quarterly analysis
-- High-risk transaction breakdown
-- Key risk metrics and thresholds
-
-### Fraud by Payment Method Dashboard
-- Payment method fraud distribution (pie chart)
-- Fraud rate by channel comparison
-- Volume vs. fraud rate analysis
-- Channel-specific risk recommendations
-
-### Geographic Risk Dashboard
-- Regional fraud case heatmap
-- Regional fraud rate comparison
-- Geographic trend analysis
-- Regional risk ranking
-
-### Device Risk Analysis Dashboard
-- Device type fraud distribution
-- Device fraud rate comparison
-- Mobile/desktop/tablet risk profiles
-- Device-specific insights
-
-### Risk Factors Dashboard
-- Top fraud indicators correlation
-- Failed attempt vs. fraud rate
-- IP flagging vs. fraud rate
-- International transaction risk analysis
-- Velocity anomaly identification
-
----
-
-## 📁 Project Artifacts
-
-- `README.md` – Project documentation and strategic framework
-- `Payment Risk Dashboard.pbix` – Power BI model with all dashboards
-- `Risk Model Documentation/` – Fraud detection rules and thresholds
-- `Source Data/` – Transaction and fraud case data
-- `Screenshot Gallery/` – Dashboard visual reference
-
----
-
-## 📈 Expected Business Impact
-
-| Initiative | Metric | Target |
-|-----------|--------|--------|
-| **Detection Rules** | Fraud reduction | 15-25% |
-| **MFA Deployment** | Fraud reduction | 20-30% |
-| **Velocity Monitoring** | Fraud reduction | 10-15% |
-| **Behavioral Model** | Fraud reduction | 25-40% |
-| **Overall Program** | Fraud reduction | 35-50% |
-| **Compliance Score** | Regulatory readiness | 95%+ |
-
----
-
-## 📞 Contact & Questions
-
-**Joshua Abejide**  
-Data & Business Intelligence Analyst  
-📧 [abejidejoshua@yahoo.com](mailto:abejidejoshua@yahoo.com)  
-📱 +971 58 915 6074  
-🔗 [LinkedIn](https://www.linkedin.com/in/josh-abejide-891245107/) | [GitHub](https://github.com/Josh-notes)
-
----
-
-**Version:** 2.0 | **Last Updated:** July 2026 | **Status:** Production-Ready | **Classification:** Financial Risk Analytics
+The dashboard allows transaction and risk related information to be reviewed from several perspectives without presenting the project as an automated fraud detection system.
+
+## Dashboard Focus
+
+The dashboard supports analysis across areas including:
+
+* Transaction activity
+* Fraud related indicators
+* Payment method
+* Geographic patterns
+* Device type
+* Transaction value
+* Risk related KPIs
+
+These views provide different ways to explore the transaction data and investigate unusual or higher risk patterns.
+
+## Risk Perspective
+
+A dashboard can help analysts identify patterns, but a visual pattern alone does not establish that a transaction is fraudulent.
+
+Risk analysis requires context, investigation, appropriate controls, and clear definitions of the indicators being used.
+
+For that reason, this project treats the dashboard as an analytical decision support tool rather than an automated fraud detection or prevention system.
+
+## Business Use
+
+A reporting solution of this type can support analytical conversations around:
+
+* Transaction monitoring
+* Payment risk analysis
+* Fraud pattern investigation
+* Payment method comparison
+* Geographic analysis
+* Device analysis
+* Risk reporting
+* Areas requiring deeper investigation
+
+The project demonstrates exploratory payment risk analytics. It does not claim that fraud prevention controls were deployed, financial losses were reduced, or regulatory outcomes resulted from the analysis.
+
+## Tools Used
+
+| Tool     | Use                                             |
+| -------- | ----------------------------------------------- |
+| Power BI | Dashboard development and visual reporting      |
+| DAX      | Measures and analytical calculations            |
+| Excel    | Source transaction data and supporting analysis |
+
+## Skills Demonstrated
+
+* Payment risk analytics
+* Transaction analysis
+* Fraud pattern exploration
+* Power BI dashboard development
+* DAX
+* KPI reporting
+* Payment method analysis
+* Geographic analysis
+* Device analysis
+* Data visualisation
+* Risk reporting
+* Business focused data storytelling
+
+## Project Files
+
+| File                                                 | Description                          |
+| ---------------------------------------------------- | ------------------------------------ |
+| `Payment Risk Intelligence.pbix`                     | Power BI report and analytical model |
+| `Fraud Detection and Payment Risk Intelligence.xlsx` | Source transaction workbook          |
+| `Payment Risk Intelligence Dashboard.png`            | Dashboard preview                    |
+| `README.md`                                          | Project documentation                |
+
+## What This Project Demonstrates
+
+This project demonstrates my ability to approach risk data carefully.
+
+Rather than treating every flagged pattern as proof of fraud, the analysis uses reporting and visualisation to identify areas that may require further investigation.
+
+The project combines transaction analysis, risk focused thinking, Power BI development, and clear communication of analytical findings.
+
+## About Me
+
+I am Joshua Abejide, a UAE based Business Analyst and analytics professional with experience across commercial and operational environments.
+
+My analytics toolkit includes Power BI, Excel, SQL, Tableau, Python, Power Query, DAX, and Generative AI tools.
+
+[LinkedIn](https://www.linkedin.com/in/josh-abejide-891245107/) | [GitHub Profile](https://github.com/Josh-notes) | [Analytics Portfolio](https://github.com/Josh-notes/data-analysis-portfolio)

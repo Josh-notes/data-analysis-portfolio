@@ -1,249 +1,139 @@
-# Coca-Cola Retail Analytics Dashboard
+# Coca Cola Retail Analytics
 
-**Enterprise Retail Profitability Analytics | Advanced Excel BI Solution**
+An Excel based retail analytics project focused on sales performance, profitability, brand performance, retailer contribution, and regional trends.
 
----
+The project demonstrates how retail transaction data can be organised into a practical reporting model for commercial analysis and management decision support.
 
-## 📋 Executive Overview
+## Dashboard Preview
 
-An advanced Excel-based analytics platform designed to analyze **retail sales performance, brand performance, and profitability optimization** across a $12M+ retail sales portfolio.
+![Coca Cola Retail Analytics Dashboard](Coca-Cola%20Dashboard.png)
 
-**Business Context:** Retail enterprise managing multiple beverage brands requiring multi-dimensional profitability analysis, retailer performance evaluation, and strategic pricing optimization.
+## Business Questions
 
----
+The analysis focuses on practical retail questions such as:
 
-## 🎯 Business Objectives
+* How is overall sales performance developing?
+* Which brands contribute most to sales?
+* How does profitability vary across the business?
+* Which retailers contribute most to performance?
+* How does performance differ across regions?
+* Which areas deserve further commercial investigation?
 
-✓ Analyze sales performance across regions and brands  
-✓ Evaluate profitability and operating margins by product and retailer  
-✓ Understand retailer contribution to revenue and profitability  
-✓ Identify pricing and cost optimization opportunities  
-✓ Support strategic brand portfolio management  
-✓ Drive retail partnership decisions  
+## Dataset
 
----
+The project uses the Excel workbook:
 
-## 📊 Dataset & Scale
+`Coca-Cola Retail.xlsx`
 
-| Metric | Value |
-|--------|-------|
-| **Total Sales** | $12M+ across multiple regions |
-| **Brands Analyzed** | 3+ primary brands (Coca-Cola, Dasani, Diet Coke) |
-| **Retailers Tracked** | 5+ major retail channels |
-| **Geographic Coverage** | Multiple regions and markets |
-| **Data Granularity** | Brand, retailer, region, time period |
+The workbook contains the data and analytical model used to build the retail dashboard.
 
----
+The analysis considers business dimensions including brand, retailer, region, sales, and profitability.
 
-## 🛠️ Tools & Technologies
+## Analytical Approach
 
-| Component | Technology |
-|-----------|-----------|
-| **Platform** | Microsoft Excel (Advanced) |
-| **Data Integration** | Power Query (M Language) |
-| **Analytics Engine** | Power Pivot (OLAP) |
-| **Reporting** | Pivot Tables, Pivot Charts |
-| **Calculations** | Excel formulas, advanced functions |
+The project follows a structured Excel analytics workflow:
 
----
+**Business Questions → Data Preparation → Analysis → KPI Reporting → Dashboard → Business Insight**
 
-## 🔑 Key Performance Indicators (KPIs)
+### Data Preparation
 
-| KPI | Definition | Strategic Purpose |
-|-----|-----------|------------------|
-| **Total Sales** | Aggregate revenue across portfolio | Revenue target monitoring |
-| **Sales by Brand** | Brand-level revenue contribution | Portfolio optimization |
-| **Sales by Retailer** | Retailer-level performance | Channel strategy |
-| **Gross Profit** | Revenue minus cost of goods | Profitability monitoring |
-| **Gross Margin %** | Profit as % of revenue | Margin optimization |
-| **Regional Performance** | Geographic revenue and margin | Market development |
+Power Query was used as part of the data preparation and transformation workflow.
 
----
+The objective was to organise the source information into a form suitable for analysis and reporting.
 
-## 📈 Key Findings & Insights
+### Analysis
 
-### Brand Performance Analysis
-**Coca-Cola: Market Leadership**
-- Coca-Cola brand drives majority of portfolio revenue
-- Premium pricing sustains high margins (40%+)
-- Consistent performance across retailers
-- Strong brand equity driving repeat orders
+Excel based analytical tools were used to examine sales and profitability from several business perspectives.
 
-**Dasani: Growth Segment**
-- Secondary brand showing steady growth
-- Competitive pricing strategy (35-38% margins)
-- Strong performance in specific retail channels
-- Growth opportunity in underperforming regions
+The analysis focuses on comparisons across brands, retailers, regions, and performance measures.
 
-**Diet Coke: Niche Performance**
-- Smaller volume but healthy margins (38-42%)
-- Concentrated retailer distribution
-- Stable customer base
-- Opportunity for selective expansion
+### Dashboard Development
 
-### Retailer Channel Performance
-**Amazon: High Volume**
-- Largest retail volume contributor
-- Competitive pricing pressure
-- Margin compression due to scale discounts
-- Strategic importance for market reach
+The results were brought together in an Excel dashboard designed to make the main commercial patterns easier to interpret.
 
-**FizzyCo: Strong Profitability**
-- Selective distribution model
-- Premium margins (42-45%)
-- Lower volume, higher profitability
-- Strategic partnership value
+## Dashboard Focus
 
-**Other Retailers: Diversification**
-- Multiple smaller channels provide stability
-- Aggregate volume significant
-- Varying margin profiles
-- Opportunity for channel optimization
+The dashboard supports analysis across areas including:
 
-### Profitability Drivers
-**Margin Performance**
-- Total portfolio margins peaked above 43%
-- Margin variation by brand (36-45% range)
-- Retailer channel impacts margin significantly
-- Pricing elasticity varies by region and channel
+* Total sales
+* Profitability
+* Brand performance
+* Retailer performance
+* Regional performance
+* Sales trends
+* Commercial KPIs
 
-**Growth Opportunities**
-- High-margin brand/channel combinations
-- Underperforming regions with upside potential
-- Category expansion possibilities
-- Retail partnership optimization
+These views allow performance to be examined from several perspectives rather than relying on a single headline figure.
 
----
+## Business Perspective
 
-## 💡 Business Recommendations
+Retail performance is influenced by more than total sales.
 
-### Immediate Actions (0-3 months)
+A strong commercial view also considers where sales originate, which brands and retailers contribute to performance, how profitability varies, and whether regional patterns deserve further investigation.
 
-1. **Price Optimization**
-   - Implement dynamic pricing by region and retailer
-   - Leverage elasticity analysis for margin-volume trade-offs
-   - Expected margin improvement: 2-3%
+This project brings those dimensions together so that sales and profitability can be reviewed within the same analytical context.
 
-2. **Retailer Prioritization**
-   - Focus promotional investment on high-margin channels
-   - Negotiate better terms with volume retailers
-   - Expected profitability gain: 3-5%
+## Business Use
 
-3. **Brand Portfolio Rebalancing**
-   - Increase promotion of Coca-Cola in underperforming regions
-   - Selective expansion of high-margin brands
-   - Expected portfolio margin improvement: 1.5-2%
+A dashboard of this type can support commercial discussions around:
 
-### Strategic Initiatives (3-12 months)
+* Sales performance
+* Brand contribution
+* Retailer performance
+* Profitability
+* Regional comparison
+* Management reporting
+* Areas requiring deeper analysis
 
-1. **Channel Strategy Optimization**
-   - Develop channel-specific go-to-market strategies
-   - Strengthen partnerships with high-margin retailers
-   - Rationalize relationships with low-margin channels
-   - Expected margin improvement: 4-6%
+The project demonstrates analytical decision support. It does not claim that recommendations were implemented by Coca Cola or that specific financial improvements resulted from this analysis.
 
-2. **Regional Market Development**
-   - Identify highest-potential underpenetrated markets
-   - Develop region-specific promotional strategies
-   - Expected revenue growth: 5-8%
+## Tools Used
 
-3. **Competitive Positioning**
-   - Analyze competitive pricing and positioning
-   - Develop differentiated value propositions
-   - Invest in brand awareness in growth markets
-   - Expected market share gain: 2-4%
+| Tool            | Use                                 |
+| --------------- | ----------------------------------- |
+| Microsoft Excel | Analysis and dashboard development  |
+| Power Query     | Data preparation and transformation |
+| Power Pivot     | Data modelling and analysis         |
+| Pivot Tables    | Multidimensional analysis           |
+| Pivot Charts    | Visual reporting                    |
+| Excel formulas  | Supporting calculations             |
 
-4. **Profitability Analytics**
-   - Implement quarterly profitability reviews
-   - Develop predictive margin forecasting
-   - Establish profitability KPI dashboards
-   - Expected operational efficiency: Continuous improvement
+## Skills Demonstrated
 
----
+* Excel analytics
+* Data preparation
+* Power Query
+* Power Pivot
+* Pivot Table analysis
+* Sales analysis
+* Profitability analysis
+* Brand performance analysis
+* Retailer analysis
+* Regional analysis
+* KPI reporting
+* Data visualisation
+* Commercial analysis
 
-## ✅ Business Value Delivered
+## Project Files
 
-| Capability | Outcome |
-|-----------|---------|
-| **Sales Monitoring** | Multi-dimensional visibility into brand and channel performance |
-| **Profitability Analysis** | Margin analysis by brand, retailer, and region |
-| **Channel Strategy** | Data-driven retail partnership prioritization |
-| **Pricing Intelligence** | Elasticity and optimization analysis |
-| **Market Planning** | Strategic foundation for regional expansion |
-| **Executive Reporting** | Consolidated profitability dashboard for leadership |
+| File                      | Description                                                     |
+| ------------------------- | --------------------------------------------------------------- |
+| `Coca-Cola Retail.xlsx`   | Excel workbook containing the project data and analytical model |
+| `Coca-Cola Dashboard.png` | Dashboard preview                                               |
+| `README.md`               | Project documentation                                           |
 
----
+## What This Project Demonstrates
 
-## 🎓 Technical Skills Demonstrated
+This project demonstrates how I use Excel as a business analysis tool rather than only as a spreadsheet.
 
-| Area | Capability |
-|------|-----------|
-| **Excel Expertise** | Advanced formulas, Power Query, Power Pivot |
-| **Data Modeling** | Multi-dimensional analytics using Excel OLAP |
-| **Pivot Table Analytics** | Complex dimensional analysis and reporting |
-| **Business Analysis** | Profitability analysis, competitive positioning |
-| **Data Visualization** | Executive dashboards and analytical charts |
-| **Retail Domain Knowledge** | Channel management, brand strategy, pricing |
+The workflow combines data preparation, structured analysis, KPI reporting, and visual communication to turn retail data into information that can support commercial conversations.
 
----
+The emphasis is on understanding what is happening in the business, where performance differs, and where further investigation may be useful.
 
-## 📊 Dashboard Components
+## About Me
 
-### Summary Dashboard
-- KPI cards (Total Sales, Margin %, Brand Ranking)
-- Sales and profitability trends
-- Brand and retailer performance ranking
-- Key metrics and targets
+I am Joshua Abejide, a UAE based Business Analyst and analytics professional with experience across commercial and operational environments.
 
-### Brand Performance Dashboard
-- Brand revenue and margin analysis
-- Brand performance by retailer
-- Regional brand penetration
-- Trend analysis and forecasting
+My analytics toolkit includes Power BI, Excel, SQL, Tableau, Python, Power Query, DAX, and Generative AI tools.
 
-### Retailer Analysis Dashboard
-- Retailer revenue contribution
-- Channel profitability metrics
-- Retailer performance ranking
-- Growth trends and opportunities
-
-### Regional Performance Dashboard
-- Regional sales and margin comparison
-- Brand performance by geography
-- Growth opportunity identification
-- Market share analysis
-
----
-
-## 📁 Project Artifacts
-
-- `README.md` – Project documentation
-- `Coca-Cola Retail Analytics.xlsx` – Complete Excel model with Power Query and Power Pivot
-- `Dashboard Screenshots/` – Visual reference for dashboard design
-- `Source Data/` – Original data files and data dictionary
-
----
-
-## 📈 Expected Business Impact
-
-| Initiative | Metric | Target |
-|-----------|--------|--------|
-| **Price Optimization** | Margin improvement | +2-3% |
-| **Retailer Focus** | Profitability gain | +3-5% |
-| **Brand Rebalancing** | Portfolio margin | +1.5-2% |
-| **Channel Strategy** | Overall margin | +4-6% |
-| **Regional Expansion** | Revenue growth | +5-8% |
-
----
-
-## 📞 Contact & Questions
-
-**Joshua Abejide**  
-Data & Business Intelligence Analyst  
-📧 [abejidejoshua@yahoo.com](mailto:abejidejoshua@yahoo.com)  
-📱 +971 58 915 6074  
-🔗 [LinkedIn](https://www.linkedin.com/in/josh-abejide-891245107/) | [GitHub](https://github.com/Josh-notes)
-
----
-
-**Version:** 2.0 | **Last Updated:** July 2026 | **Status:** Production-Ready
+[LinkedIn](https://www.linkedin.com/in/josh-abejide-891245107/) | [GitHub Profile](https://github.com/Josh-notes) | [Analytics Portfolio](https://github.com/Josh-notes/data-analysis-portfolio)

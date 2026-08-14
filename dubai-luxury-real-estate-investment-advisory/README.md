@@ -2,11 +2,30 @@
 
 A research led investment advisory case study comparing **Golf Acres and Greenspoint in Emaar South, Dubai South** for a residential end user mandate with a firm **AED 2,000,000 budget**.
 
-The project combines market research, property comparison, affordability analysis, Dubai Land Department transaction evidence, risk assessment, weighted decision scoring, and executive communication.
+The project combines market research, property comparison, affordability analysis, Dubai Land Department transaction evidence, risk assessment, weighted decision scoring, and executive communicatio[...]
 
 ## Project Preview
 
 ![Dubai Luxury Real Estate Investment Advisory](Dubai%20Luxury%20Real%20Estate.png)
+
+## Project Deliverables
+
+This project includes both the executive decision presentation and the detailed research supporting the analysis.
+
+| Deliverable | Purpose |
+| --- | --- |
+| [Investment Advisory Presentation](./Dubai_Luxury_RE_Investment_Advisory.pptx) | Executive presentation translating the research, comparison, risk assessment, scoring framework, and recommendation into a decision focused format |
+| [Investment Advisory Research Report](./Emaar_South_Investment_Advisory_Report.pdf) | Detailed research and evidence base supporting the market analysis, project comparison, transaction review, assumptions, limitations, and recommendation framework |
+
+### Recommended Viewing Order
+
+**1. Investment Advisory Presentation**
+
+Start with the presentation for the concise executive version of the analysis and recommendation.
+
+**2. Investment Advisory Research Report**
+
+Review the research report for the detailed evidence, sourcing, methodology, assumptions, and limitations supporting the advisory.
 
 ## Business Question
 
@@ -71,7 +90,7 @@ Because both developments sit within the same wider Emaar South environment and 
 
 The research also examined available Dubai Land Department transaction information.
 
-Golf Acres showed recorded transaction activity within the research period, while comparable project level transaction evidence for Greenspoint was not located in the public sources reviewed at the time.
+Golf Acres showed recorded transaction activity within the research period, while comparable project level transaction evidence for Greenspoint was not located in the public sources reviewed at th[...]
 
 This difference was treated as an analytical consideration rather than proof of future liquidity.
 
@@ -103,7 +122,7 @@ The purpose is to make assumptions and tradeoffs visible before reaching a recom
 
 The analytical work was translated into an executive investment advisory presentation.
 
-The presentation condenses the research into a decision focused narrative covering the client mandate, market context, project comparison, risk assessment, scoring framework, and final recommendation.
+The presentation condenses the research into a decision focused narrative covering the client mandate, market context, project comparison, risk assessment, scoring framework, and final recommenda[...]
 
 This demonstrates the ability to move from detailed research to concise executive communication.
 
@@ -126,7 +145,7 @@ This project goes beyond dashboard development.
 
 It demonstrates how I approach a business decision from beginning to end:
 
-**define the mandate → gather evidence → validate the information → compare alternatives → assess risk → structure the decision → communicate the recommendation**
+**define the mandate -> gather evidence -> validate the information -> compare alternatives -> assess risk -> structure the decision -> communicate the recommendation**
 
 The emphasis is on analytical judgement, traceable evidence, and clear communication.
 

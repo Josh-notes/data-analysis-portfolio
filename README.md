@@ -74,23 +74,19 @@ An Excel based retail analytics project focused on sales performance, profitabil
 
 ---
 
-## Strategy & Advisory Case Study
+### 5. Dubai Luxury Real Estate Investment Advisory
 
-### Dubai Luxury Real Estate Investment Advisory
+[View Project](./dubai-luxury-real-estate-investment-advisory)
 
 A research led investment advisory case study comparing **Golf Acres and Greenspoint in Emaar South, Dubai South** for a residential end user mandate with an **AED 2,000,000 budget**.
 
 The work combines market research, project comparison, DLD transaction evidence, affordability analysis, risk assessment, investment scoring, and executive presentation.
 
-A detailed research report supports the recommendation framework and distinguishes verified information from unavailable data and forward looking projections.
-
 **Focus:** Market intelligence, comparative analysis, investment decision framework, risk analysis, executive communication
 
-**Methods:** Public source research, DLD transaction analysis, weighted decision framework, comparative assessment
+**Tools:** Market research, DLD transaction analysis, weighted decision framework, comparative assessment, Generative AI
 
 **What it demonstrates:** Moving from a client mandate and research evidence to a structured recommendation and executive level presentation.
-
-*Full project packaging is being prepared for publication in this portfolio.*
 
 ---
 
